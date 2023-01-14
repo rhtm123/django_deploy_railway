@@ -5,6 +5,8 @@ import os
 
 SECRET_KEY = config('SECRET_KEY')
 
+DEBUG = False
+
 ALLOWED_HOSTS = ['web-production-a6b8.up.railway.app']
 CSRF_TRUSTED_ORIGINS = ['https://web-production-a6b8.up.railway.app']
 
